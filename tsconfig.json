@@ -1,0 +1,25 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "rootDir": "src",
+        "baseUrl": ".",
+        "outDir": "dist",
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "declaration": true,
+        "declarationMap": true,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "target": "esnext",
+        "module": "esnext",
+        "lib": ["esnext"],
+        "skipLibCheck": true,
+        "skipDefaultLibCheck": true,
+        "strict": true,
+        "resolveJsonModule": true
+    },
+    "exclude": ["node_modules"],
+    "include": ["./src/**/*"]
+}

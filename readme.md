@@ -1,0 +1,1 @@
+An express session store that works with mysql databases
